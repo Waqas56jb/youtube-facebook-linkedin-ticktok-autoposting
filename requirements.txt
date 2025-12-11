@@ -1,0 +1,37 @@
+# Video Caption Generator - Production Dependencies (Python 3.9 compatible)
+
+# Web framework
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+
+# App config
+python-dotenv==1.0.1
+pydantic==2.7.4
+pydantic-settings==2.3.4
+
+# YouTube integration
+google-auth==2.23.4
+google-auth-oauthlib==1.1.0
+google-auth-httplib2==0.1.1
+google-api-python-client==2.108.0
+
+# Uploads
+python-multipart==0.0.9
+
+# Speech-to-text (requires ffmpeg installed in the OS image)
+faster-whisper==1.0.3
+
+# Document text extraction
+pypdf==5.0.1
+python-docx==1.1.2
+chardet==5.2.0
+pypandoc==1.13
+beautifulsoup4==4.12.3
+markdown-it-py==3.0.0
+python-pptx==1.0.2
+
+# LLM: Google Gemini
+google-generativeai==0.7.2
+
+# Optional process manager (not used when running uvicorn directly)
+gunicorn==21.2.0

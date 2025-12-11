@@ -1,0 +1,41 @@
+# Ignore local environments and caches
+venv/
+.env
+__pycache__/
+*.pyc
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Local data and tokens
+storage/
+uploads/
+data/*.json
+!data/captions_database.json
+client_sectets.json
+client_secrets.json
+calander.json
+
+# Git
+.git/
+.gitignore
+
+# Others
+*.log
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.flv
+*.webm
