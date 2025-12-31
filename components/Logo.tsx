@@ -5,6 +5,7 @@ export default function Logo() {
       <span className="text-base font-semibold tracking-wide text-[#bccaff]">StoryVerse</span>
     </div>
   );
+  
 }
 
 
